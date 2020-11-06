@@ -1,0 +1,2 @@
+# exertec
+exercicios do técnico
