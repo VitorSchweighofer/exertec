@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <title>Manipulação do DOM</title>
+    <meta charset="utf-8" />
+    <script>
+        var feliz = false;
+
+        function ficarFeliz(emoji){
+
+            if (!feliz) {
+                document.getElementById("triste").src = "_img/" + emoji + ".jpg";
+            }
+            if (emoji == 'emojiFeliz') {
+                feliz = true;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Clique no emoji</h1>
+    <img src="_img/emojiTriste.jpg" id="triste" onmouseover="ficarFeliz('emojiSerio')" onmouseout="ficarFeliz('emojiTriste')" onclick="ficarFeliz('emojiFeliz')" />
+</body>
+</html>﻿

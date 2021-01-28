@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fjalla One', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.bodyLogin{
+
+}
+.login{
+    margin-left: 475px;
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    color: aliceblue;
+    text-align: center;
+    background-color: #000;
+}
+
+.login form{
+    text-align: left;
+    padding-top: 140px;
+    margin-left: 5px;
+}
+
+.loginTitle{
+    font-size: 30px;
+}
+
+.dados{
+    padding-right: 150px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.shadowButton {
+        background-color: #f4f4f4; /* Green */
+        border: none;
+        color: #000;
+        padding: 15px 32px;
+        text-align: center;
+        float: right;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px 10px auto 10px;
+        cursor: pointer;
+        transition: box-shadow 0.4s;
+        
+    }
+
+.shadowButton:hover{
+    box-shadow: 0px 0px 0px 2px #f4f4f4;
+}
+.transButton {
+    background-color: Black; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid Black;
+}
+.transButton:hover{
+    background-color: Black;
+    color: white;
+}
+.buttonLocal{
+    margin-left: 500px;
+    margin-top: 50px;
+    width: 400px;
+    height: 500px;
+    color: aliceblue;
+    text-align: center;
+}
+p.round1 {
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    margin-top: 25px;
+    padding: 5px;
+    text-align: left;
+    text-transform: uppercase;
+    
+}
+nav {
+    margin: 0 auto;
+}
+
+.menu{
+    display:block;
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center
+}
+
+.menu ul{
+    background-color: black;
+    box-shadow: 1 1 1 1 #000000;
+    position: relative;
+    padding: 5;
+}
+
+.menu li{
+    padding: 10;
+    display: inline-block;
+}
+.menu li:last-child{
+    border:none;
+}
+.menu a{
+    padding: 10;
+    text-decoration: none;
+    color: #f4f4f4f4;
+}
+.menu a:hover{
+    color: black;
+}
+.menu li:hover{
+    background-color: #f4f4f4;
+}

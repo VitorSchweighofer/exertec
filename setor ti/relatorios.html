@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Relatórios | TI Xablau</title>
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="_css/main.css">
+    </head>
+    <body>
+    <nav class="menu">
+    <ul>
+      <li><a href="index.html">Painel</a></li>
+      <li><a href="order.html">Ordens de Serviço</a></li>
+      <li><a href="relatorios.html">Relatórios</a></li>
+        <li><a href="login.html">Sair</a></li>      
+    </ul>
+    </nav>
+    <div class="center">
+        <label class="title">Categoria:</label>
+        <select class="select">
+            <option value="install" >Instalação de programas</option>
+            <option value="fail">Falha de Hardware</option>
+            <option value="backup" >Backup</option>
+            <option value="formatação" >Formatação</option>
+            <option value="man" >Manutenção e Limpeza</option>
+        </select><br/>
+
+      <label class="title">Data inicial:</label>
+        <input class="select" type="date" required />
+        <label class="title">Data final:</label>
+        <input class="select" type="date" required  /><br/>
+        <label class="title">Hora inicial: </label>
+        <input class="select" type="time" required   />
+        <label class="title">Hora final:</label>
+        <input class="select" type="time"required  /><br/>
+        <div class="botom">
+        <a class="transButton" href="_link/relatoriosResult.html">Buscar</a>
+    </div>
+  </div>        
+    </body>
+</html>

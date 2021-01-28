@@ -1,0 +1,47 @@
+<html>
+    <head>
+    <title>Calculadora</title>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+            <h1>CALCULADORA</h1>
+            <input type="text" id="firstNumber">
+            <input type="text" id="secondNumber">
+            <button type="button" value="+" class="btn btn-outline-dark mr-2" onClick="calc(this)">+</button>
+            <button type="button" value="-" class="btn btn-outline-dark mr-2" onClick="calc(this)">-</button>
+            <button type="button" value="*" class="btn btn-outline-dark mr-2" onClick="calc(this)">*</button>
+            <button type="button" value="/" class="btn btn-outline-dark mr-2" onClick="calc(this)">/</button>
+    </body>
+<script>
+function calc(e){
+   
+   var operacao = e.value;
+   
+   var n1=parseFloat(document.getElementById("firstNumber").value);
+   var n2=parseFloat(document.getElementById("secondNumber").value);
+   
+   var calculo = eval(n1+operacao+n2);
+
+   if(!isNaN(calculo)){
+      alert(calculo);
+   }
+    document.getElementById("firstNumber").value = '';
+    document.getElementById("secondNumber").value = '';
+}
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+

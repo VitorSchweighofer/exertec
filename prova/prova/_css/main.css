@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/*login*/
+
+.login{
+    margin-left: 40%;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+    color: aliceblue;
+    text-align: center;
+    background-color: #000;
+    border-radius: 25px;
+}
+
+.login form{
+    text-align: left;
+    padding-top: 30px;
+    margin-left: 5px;
+}
+
+.loginTitle{
+    font-size: 20px;
+}
+
+.dados{
+    padding-right: 150px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.shadowButton {
+        background-color: #FF4E50;
+        color: #fff;
+        padding: 15px 32px;
+        text-align: center;
+        float: right;
+        font-size: 16px;
+        margin: 10px 15px auto 10px;
+        cursor: pointer;
+        transition: box-shadow 0.4s;
+        border: none;
+    }
+
+.shadowButton:hover{
+        box-shadow: 0px 0px 0px 2px #FF4E50;
+ }
+
+/*nav*/
+    
+nav {
+    margin: 0 auto;
+}
+
+.menu{
+    display:block;
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center
+}
+
+.menu ul{
+    background-color: black;
+    box-shadow: 1 1 1 1 #000000;
+    position: relative;
+    padding: 5;
+}
+
+.menu li{
+    padding: 10;
+    display: inline-block;
+}
+.menu li:last-child{
+    border:none;
+}
+.menu a{
+    padding: 10;
+    text-decoration: none;
+    color: #f4f4f4f4;
+}
+.menu a:hover{
+    color: black;
+}
+.menu li:hover{
+    background-color: #FF4E50;
+}
+ /*relatórios*/
+.center{
+    padding: 30px;
+    padding-left: 20px ;
+    padding-right: 0px;
+    margin-left: 24%;
+    margin-top: 90px;
+    width: 650px;
+    height: 300px;
+    color: aliceblue;
+    text-align: left;
+    background-color: #f2f2f2;
+}
+.center input{
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.center select{
+    margin-bottom: 30px;
+}
+ .select {
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 20px;
+ }
+ .title{
+     color:#000;
+     font-size: 30px;
+ }
+ .Button {
+    background-color: #FF4E50;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    float: right;
+    font-size: 16px;
+    margin: 10px 20px 30px 10px;
+    cursor: pointer;
+    transition: box-shadow 0.4s;
+    
+}
+
+.Button:hover{
+box-shadow: 0px 0px 0px 2px #FF4E50;
+}
+
+.botoes{
+    margin-top:300px;
+    margin-left: 23%;
+}
+
+/*Tabela*/
+.serviços{
+    padding:5px;
+    text-align: left;
+ 
+    margin-left: 15%;
+}
+
+.serviços th{
+    font-size: 30px;
+    padding: 20px;
+    margin-right: 100%;
+    text-align: center;
+}
+
+.serviços td{
+    padding-right: 2px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.one{
+    padding-right: 30px;
+}
+
+textarea{
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: grey;
+    width: 500px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+/*Ordens de Serviço*/
+
+.transButton {
+    background-color: Black;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid Black;
+    text-transform: uppercase;
+}
+.transButton:hover{
+    background-color: #FF4E50;
+    color: white;
+}
+input[type=text], select, [type=password] {
+    width: 90%;
+    padding: 5px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-transform: none;
+}
+input[type=number] {
+    margin-right: 750px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-transform: none;
+}
+input[type=radio], [type=checkbox]{
+    margin-right:5;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-transform: none;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: white;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    border: 2px solid Black;
+    text-transform:uppercase;
+}
+
+input[type=submit]:hover {
+    background-color: #2E8724;
+}
+input[type='file'] {
+  display: none
+}
+.labelArq {
+    text-decoration-color: black
+  background-color: White;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+    border: 2px solid white;
+    transition-duration: 0.4s; 
+  padding: 6px 20px 
+        
+}
+.labelArq:hover{
+    background-color: white;
+    color: black;
+}
+
+.botom{
+    margin-left: 515px;
+    margin-top: -40px;
+}
+.FM1{
+    text-align: left;
+    font-size: 30px;
+}
+.backForm{
+    margin-left: 15%;
+    margin-top: 3%;
+    padding: 30px;
+    width: 1000px;
+    height: 300px;
+    color: aliceblue;
+    text-align: left;
+    background-color: #000;
+    border-radius: 25px;
+}
+.backForm2{
+    margin-left: 15%;
+    margin-top: 3%;
+    padding: 30px;
+    width: 1000px;
+    height: 800px;
+    color: aliceblue;
+    text-align: left;
+    background-color: #000;
+    border-radius: 25px;
+}
+.backForm3{
+    margin-left: 15%;
+    margin-top: 3%;
+    padding: 30px;
+    width: 1000px;
+    height: 500px;
+    color: aliceblue;
+    text-align: left;
+    background-color: #000;
+    border-radius: 25px;
+}
+.select{
+    margin-left: 15px;
+}
