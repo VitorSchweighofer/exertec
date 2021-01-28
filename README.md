@@ -1,1 +1,1 @@
-Lista de diversos exercicios feitos no técnico em informática para internet
+Lista de alguns exercicios feitos no técnico em informática para internet
