@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+}
+nav {
+    margin: 0 auto;
+}
+
+.menu{
+    display:block;
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.menu ul{
+    background-color: black;
+    box-shadow: 1 1 1 1 #000000;
+    position: relative;
+    padding: 5;
+}
+
+.menu li{
+    padding: 10;
+    transition: background-color 1s;
+    display: inline-block;
+}
+.menu li:last-child{
+    border:none;
+}
+.menu a{
+    padding: 10;
+    text-decoration: none;
+    color: #f4f4f4f4;
+}
+.menu a:hover{
+    color: coral
+}
+.menu li:hover{
+    background-color: #f4f4f4;
+}
