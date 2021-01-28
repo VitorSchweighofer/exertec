@@ -1,0 +1,78 @@
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+</head>
+<body>
+
+<form class="form-horizontal">
+<h1>Cadastro</h1>
+
+<div class="form-group">
+  <label class="col-md-2 control-label" for="Nome">Nome </label>  
+  <div class="col-md-8">
+  <input id="Nome" name="Nome" placeholder="Nome" class="form-control input-md" required="" type="text">
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-2 control-label" for="Email">Email </label>  
+  <div class="col-md-8">
+  <input id="Email" name="Email" placeholder="Email" class="form-control input-md" required="" type="text">
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-2 control-label" for="URL">URL </label>  
+  <div class="col-md-8">
+  <input id="URL" name="URL" placeholder="URL" class="form-control input-md" required="" type="text">
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-2 control-label" for="Telefone">Telefone </label>  
+  <div class="col-md-8">
+  <input id="Telefone" name="Telefone" placeholder="Telefone" class="form-control input-md" required="" type="text">
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-2 control-label" for="Data e Hora">Data e Hora </label>  
+  <div class="col-md-8">
+  <input id="Data e Hora" name="Data e Hora" placeholder="Data e Hora" class="form-control input-md" required="" type="text">
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-2 control-label" for="Data">Data </label>  
+  <div class="col-md-8">
+  <input id="Data" name="Data" placeholder="Data" class="form-control input-md" required="" type="text">
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-2 control-label" for="Cadastrar"></label>
+  <div class="col-md-8">
+    <button id="Validar" name="Validar" class="btn btn-primary" type="Submit" onclick="myFunction()">Validar</button>
+  </div>
+</div>
+</form>
+<script>
+function myFunction() {
+var letras = /^[A-Za-z]+$/;
+  if(document.getElementById("Nome").value.match(letras)){
+      return true;
+  }else{
+      alert('O nome está incorreto');
+      return false;
+  }
+    if(document.getElementById("Email").value.match(letras)){
+      return true;
+  }else{
+      alert('O nome está incorreto');
+      return false;
+  } 
+     }   
+</script>
+</body>
+</html>
